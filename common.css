@@ -19,7 +19,7 @@
 }
 
 .am-nav-justify>li>a {
-    margin-bottom: -5px;
+    margin-bottom: -8px;
 }
 
 header {
@@ -165,6 +165,7 @@ footer {
     background-color: aliceblue;
     max-height: 60px;
     overflow: hidden;
+    bottom: 0;
 }
 
 footer li {
@@ -183,7 +184,7 @@ footer ul li span {
     height: 10%;
     font-size: 13px;
     position: relative;
-    bottom: 0;
+    bottom: 5px;
 }
 
 footer ul li:nth-child(3) a,
