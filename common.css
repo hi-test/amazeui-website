@@ -101,11 +101,14 @@ main .nav {
     border: 1px solid gray;
 }
 
+.am-list-news-default .am-list>li {
+    border-color: #ff5151;
+}
+
 footer {
     border-top: 2px solid gray;
     background-color: aliceblue;
     max-height: 60px;
-    padding-bottom: 5px;
 }
 
 footer li {
