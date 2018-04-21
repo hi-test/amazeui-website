@@ -18,6 +18,10 @@
     font-weight: bold;
 }
 
+.am-nav-justify>li>a {
+    margin-bottom: -5px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
