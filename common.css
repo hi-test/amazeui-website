@@ -98,10 +98,7 @@ main .nav {
 footer {
     border-top: 2px solid gray;
     background-color: aliceblue;
-}
-
-footer #components {
-    transition: all 1s;
+    max-height: 60px;
 }
 
 footer a,
