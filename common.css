@@ -109,6 +109,50 @@ main .nav {
     border-color: #ff5151;
 }
 
+.menav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ff5151;
+    padding: 10px;
+}
+
+.menav div {
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.meheader {
+    padding: 15px;
+    border-bottom: 1px solid #ff5151;
+}
+
+.meheader .am-fl {
+    margin-left: 15px;
+}
+
+.meheader .am-fl:nth-child(1) p {
+    text-align: center;
+}
+
+.meheader img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.menav div span {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.menav div img {
+    height: 50%;
+    width: 50%;
+}
+
 footer {
     border-top: 2px solid gray;
     background-color: aliceblue;
