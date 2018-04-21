@@ -13,6 +13,11 @@
     box-sizing: border-box;
 }
 
+.am-text-lg {
+    color: white;
+    font-weight: bold;
+}
+
 header {
     display: flex;
     justify-content: space-between;
