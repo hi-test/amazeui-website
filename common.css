@@ -19,6 +19,7 @@ header {
     height: 54px;
     border-bottom: 2px solid gray;
     padding: 10px;
+    background-color: #ff2d2d;
 }
 
 header div img {
