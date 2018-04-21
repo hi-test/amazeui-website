@@ -1,0 +1,111 @@
+[class*="am-icon-"]:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 54px;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+
+header div img {
+    height: 30px;
+    width: 30px;
+}
+
+main .nav {
+    height: 50px;
+}
+
+.am-menu-offcanvas1 .am-menu-toggle {
+    top: -8px;
+    left: 0;
+}
+
+.am-menu-offcanvas1 .am-menu-toggle img {
+    height: 30px;
+    width: 30px;
+}
+
+.am-titlebar-cols .am-titlebar-nav a:hover {
+    color: #3c3c3c;
+    border-bottom-color: #0e90d2;
+}
+
+.am-titlebar-cols,
+.am-titlebar-cols .am-titlebar-nav {
+    width: 100%;
+    height: 100%;
+}
+
+.am-titlebar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.am-list-item-thumb-left {
+    vertical-align: middle;
+}
+
+#sectionFir .am-list-news-default .am-list .am-list-thumb img,
+#sectionSec .am-u-sm-4 img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+}
+
+#sectionFir .am-u-sm-12 {
+    width: 60px;
+}
+
+#sectionSec .am-u-sm-4 img,
+#sectionThi .buttonsilder img {
+    border-radius: 50%;
+}
+
+#sectionSec ul li,
+#sectionThi ul li {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sectionThi .am-u-sm-4 img {
+    width: 70px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+
+#sectionThi .buttonsilder img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid gray;
+}
+
+footer {
+    border-top: 2px solid gray;
+    background-color: aliceblue;
+}
+
+footer #components {
+    transition: all 1s;
+}
+
+footer a,
+img {
+    width: 100%;
+    height: 100%;
+}
