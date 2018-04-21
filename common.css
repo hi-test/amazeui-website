@@ -112,20 +112,22 @@ main .nav {
 .menav {
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid #ff5151;
     padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -10px;
+    border-radius: 10px;
+    background-color: #ffffff;
 }
 
 .menav div {
     width: 20%;
-    border: 1px solid gray;
     border-radius: 5%;
     text-align: center;
 }
 
 .meheader {
     padding: 15px;
-    border-bottom: 1px solid #ff5151;
 }
 
 .meheader .am-fl {
@@ -145,7 +147,7 @@ main .nav {
 
 .menav div span {
     display: inline-block;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .menav div img {
