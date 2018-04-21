@@ -108,7 +108,13 @@ footer li {
 }
 
 footer a,
-img {
+footer img {
     width: 90%;
     height: 90%;
+}
+
+footer ul li:nth-child(3) a,
+footer ul li:nth-child(3) a img {
+    width: 100%;
+    height: 100%;
 }
