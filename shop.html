@@ -9,6 +9,7 @@
 
     <link href="https://cdn.bootcss.com/amazeui/2.7.2/css/amazeui.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="./amazeui.swiper.css">
     <link rel="stylesheet" href="./common.css">
 
 </head>
@@ -20,25 +21,29 @@
 
         </header>
         <main>
-            <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider=''>
-                <ul class="am-slides">
-                    <li>
-                        <img src="http://s.amazeui.org/media/i/demos/bing-1.jpg">
 
-                    </li>
-                    <li>
-                        <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg">
-
-                    </li>
-                    <li>
-                        <img src="http://s.amazeui.org/media/i/demos/bing-3.jpg">
-
-                    </li>
-                    <li>
-                        <img src="http://s.amazeui.org/media/i/demos/bing-4.jpg">
-
-                    </li>
-                </ul>
+            <div class="swiper-container swiper-container-horizontal swiper-container-3d swiper-container-coverflow" id="demo18" style="cursor: -webkit-grab;">
+                <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-346px, 0px, 0px);">
+                    <div class="swiper-slide" style="background-image: url(&quot;http://s.amazeui.org/media/i/demos/bing-1.jpg&quot;); transform: translate3d(0px, 0px, -200px) rotateX(0deg) rotateY(100deg); z-index: -1; transition-duration: 0ms;">
+                        <div class="swiper-slide-shadow-left" style="opacity: 2; transition-duration: 0ms;"></div>
+                        <div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-prev" style="background-image: url(&quot;http://s.amazeui.org/media/i/demos/bing-2.jpg&quot;); transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(50deg); z-index: 0; transition-duration: 0ms;">
+                        <div class="swiper-slide-shadow-left" style="opacity: 1; transition-duration: 0ms;"></div>
+                        <div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-active" style="background-image: url(&quot;http://s.amazeui.org/media/i/demos/bing-3.jpg&quot;); transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: 1; transition-duration: 0ms;">
+                        <div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div>
+                        <div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" style="background-image: url(&quot;http://s.amazeui.org/media/i/demos/bing-4.jpg&quot;); transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(-50deg); z-index: 0; transition-duration: 0ms;">
+                        <div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div>
+                        <div class="swiper-slide-shadow-right" style="opacity: 1; transition-duration: 0ms;"></div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
             </div>
 
 
@@ -144,6 +149,7 @@
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdn.bootcss.com/amazeui/2.7.2/js/amazeui.js"></script>
     <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <script src="./amazeui.swiper.js"></script>
     <script src="./main.js"></script>
 </body>
 
