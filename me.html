@@ -20,13 +20,8 @@
             background-color: #ffffff;
         }
     </style>
-    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
-    <script type="text/javascript">
-        $youziku.load("body", "baec19cb5a604002854408f93e923754", "Source-Han-Light");
-        /*$youziku.load("#id1,.class1,h1", "baec19cb5a604002854408f93e923754", "Source-Han-Light");*/
-        /*．．．*/
-        $youziku.draw();
-    </script>
+
+
 </head>
 
 <body style="background-color: #f2f2f2;">
@@ -34,7 +29,7 @@
         <header>
             <div class="im-fl am-cf">
                 <nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1" data-am-menu-offcanvas>
-                    <a href="javascript: void(0)" class="am-menu-toggle">
+                    <a href="javascript: void(0)" class="am-menu-toggle" style="top:-8px;">
                         <img src="http://p7ik6bm59.bkt.clouddn.com/whiteslider.png" />
                     </a>
 
@@ -250,48 +245,19 @@
 
         </main>
         <footer class="am-topbar-fixed-bottom">
-            <ul class="am-nav am-nav-pills am-nav-justify">
-                <li>
-                    <a href="index.html" name="home">
-                        <img src="http://p7ik6bm59.bkt.clouddn.com/home.png">
 
-                    </a>
-                    <span>首页</span>
-                    <br/>
-                </li>
-                <li>
-                    <a href="index.html" name="music">
-                        <img src="http://p7ik6bm59.bkt.clouddn.com/phone.png">
-                    </a>
-                    <span>相约</span>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://p7ik6bm59.bkt.clouddn.com/add1.png">
-                    </a>
-
-                </li>
-                <li>
-                    <a href="index.html" name="shop">
-                        <img src="http://p7ik6bm59.bkt.clouddn.com/shop.png">
-                    </a>
-                    <span>
-                        购物
-                    </span>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://p7ik6bm59.bkt.clouddn.com/me.png">
-                    </a>
-                    <span>
-                        我的
-                    </span>
-                </li>
-            </ul>
         </footer>
     </div>
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdn.bootcss.com/amazeui/2.7.2/js/amazeui.js"></script>
+    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <script>
+        $(function() {
+            $('.am-topbar-fixed-bottom').load('./components/footer.html')
+        });
+        $youziku.load("body", "77fd23900ba84be6ac87f8318703d8cc", "RS_XingKai");
+        $youziku.draw();
+    </script>
 </body>
 
 </html>
