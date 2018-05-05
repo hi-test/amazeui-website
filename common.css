@@ -42,10 +42,12 @@ header {
     height: 50px;
     padding: 10px;
     margin-bottom: -50px;
+    z-index: 2;
+    position: relative;
 }
 
 .swiper-container {
-    z-index: -99;
+    z-index: 1;
 }
 
 header div img {
