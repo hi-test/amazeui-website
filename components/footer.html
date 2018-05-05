@@ -20,15 +20,15 @@
 </div>
 <ul class="am-nav am-nav-pills am-nav-justify">
     <li>
-        <a href="home.html" name="home">
+        <a name="home">
             <img src="http://p7ik6bm59.bkt.clouddn.com/home.png">
 
         </a>
         <span>首页</span>
     </li>
     <li>
-        <a href="music.html" name="music">
-            <img src="http://p7ik6bm59.bkt.clouddn.com/phone.png">
+        <a name="music">
+            <img src="http://p7ik6bm59.bkt.clouddn.com/music.png">
         </a>
         <span>相约</span>
     </li>
@@ -39,24 +39,31 @@
 
     </li>
     <li>
-        <a href="shop.html" name="shop">
+        <a name="shop">
             <img src="http://p7ik6bm59.bkt.clouddn.com/shop.png">
         </a>
-        <span>
-                        购物
-                    </span>
+        <span>购物</span>
     </li>
     <li>
-        <a href="me.html">
+        <a name="me">
             <img src="http://p7ik6bm59.bkt.clouddn.com/me.png">
         </a>
-        <span>
-                        我的
-                    </span>
+        <span>我的</span>
     </li>
 </ul>
 <script>
+    $(function() {
+        var locationName = $(location).attr('href').split('/').pop().split('.').shift();
+        console.log(locationName);
+
+        $('footer ul li a[name=' + locationName + ']').find('img').attr('src', 'http://p7ik6bm59.bkt.clouddn.com/' + locationName + '-r.png')
+    });
     $("#clickHere").click(function() {
         $('#slide-bottom').slideToggle(250);
+    })
+    $('footer ul li a[name]').click(function() {
+        var name = $(this).prop('name');
+        $(this).find('img').attr('src', 'http://p7ik6bm59.bkt.clouddn.com/' + name + '.png');
+        $(location).attr('href', name + '.html');
     })
 </script>

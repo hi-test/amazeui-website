@@ -3,8 +3,6 @@ $(function() {
     $('header').load('./components/header.html');
     $youziku.load("body", "77fd23900ba84be6ac87f8318703d8cc", "RS_XingKai");
     $youziku.draw();
-
-    console.log($('#clickHere'))
     $('#demo18').swiper({
         pagination: '#demo18 .swiper-pagination',
         effect: 'coverflow',
@@ -19,4 +17,9 @@ $(function() {
             slideShadows: true
         }
     });
+
+});
+$(function() {
+
+
 });
