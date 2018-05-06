@@ -134,7 +134,7 @@ main .nav {
     width: 70px;
     height: 60px;
     border: 1px solid gray;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 
 #sectionThi .buttonsilder img {
