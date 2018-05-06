@@ -61,3 +61,7 @@
                 .am-list-main h4 {
                     margin-bottom: 10px;
                 }
+                
+                .first-nav .am-titlebar-cols {
+                    margin: 0;
+                }

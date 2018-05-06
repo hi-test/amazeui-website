@@ -33,3 +33,7 @@
     color: gray;
     text-decoration: underline;
 }
+
+.am-titlebar-cols {
+    margin: 0;
+}

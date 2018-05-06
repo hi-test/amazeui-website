@@ -137,15 +137,16 @@ main .nav {
     border-radius: 5px;
 }
 
+.am-tabs-bd .am-tab-panel.am-active {
+    position: static;
+}
+
 .am-menu-offcanvas1 .am-menu-nav>.am-parent>a {
     background-color: gray;
 }
 
 .am-offcanvas-bar {
-    background-image: -webkit-linear-gradient(90deg, #7fb2fa 0%, #92c1fd 100%);
-    background-image: -moz-linear-gradient(90deg, #7fb2fa 0%, #92c1fd 100%);
-    background-image: -o-linear-gradient(90deg, #7fb2fa 0%, #92c1fd 100%);
-    background-image: linear-gradient(90deg, #7fb2fa 0%, #92c1fd 100%);
+    background-color: #ffffff;
 }
 
 #sectionThi .buttonsilder img {
