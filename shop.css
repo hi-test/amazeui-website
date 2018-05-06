@@ -1,0 +1,55 @@
+                .buttonsilder button {
+                    width: 55px;
+                    height: 33px;
+                    background-color: #FE3C2F;
+                    color: #ffffff;
+                    font-size: 14px;
+                    text-align: center;
+                    border: none;
+                    border-radius: 3px;
+                }
+                
+                .buttonsilder {
+                    padding-top: 12px;
+                    ;
+                }
+                
+                #components .first-nav {
+                    height: 40px;
+                }
+                
+                .am-titlebar-cols .am-titlebar-nav a:hover {
+                    border-bottom-color: red;
+                    color: red;
+                }
+                
+                #components .first-nav .am-titlebar-nav {
+                    font-size: 15px;
+                }
+                
+                #components .first-nav .am-titlebar-nav a:nth-child(3) i {
+                    padding-left: 10px;
+                }
+                
+                #components p:nth-child(1) {
+                    font-size: 10px;
+                    margin-top: 10px;
+                    height: 10px;
+                }
+                
+                #components .cm-select {
+                    width: 18px;
+                    height: 18px;
+                }
+                
+                #components .second-nav {
+                    margin-top: -10px;
+                }
+                
+                #components .am-titlebar-cols {
+                    border: none;
+                }
+                
+                #components .second-nav .am-titlebar-nav a {
+                    font-size: 15px;
+                }
