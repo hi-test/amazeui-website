@@ -50,6 +50,22 @@ header {
     z-index: 1;
 }
 
+#slide-bottom:after {
+    content: '';
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    margin-left: -8px;
+    width: 16px;
+    height: 16px;
+    z-index: 5;
+    transform: rotate(45deg);
+    border: 1px solid gray;
+    border-left: none;
+    border-top: none;
+    background-color: #ffffff;
+}
+
 header div img {
     height: 30px;
     width: 30px;
@@ -175,7 +191,6 @@ main .nav {
 }
 
 footer {
-    box-shadow: 0 -1px 1px gray;
     background-color: #ffffff;
 }
 
@@ -204,9 +219,12 @@ footer ul li span {
 #slide-bottom {
     width: 100%;
     clear: both;
+    height: 80px;
     display: none;
-    padding: 10px;
     margin-bottom: 20px;
+    padding-top: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
 }
 
 #slide-bottom ul {
