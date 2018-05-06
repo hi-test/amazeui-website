@@ -1,0 +1,35 @@
+#sectionThi .am-u-sm-4 img {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    border: none;
+}
+
+.am-titlebar-cols .am-titlebar-nav a {
+    font-size: 15px;
+}
+
+.am-list-news-default .am-list .am-list-item-desced .buttonsilder a {
+    background: url('./img/add.png') no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-top: 10px;
+}
+
+.am-list-news-default .am-list .am-list-item-desced .buttonsilder a:hover {
+    background: url('./img/yes.png') no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.second-nav {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.second-nav a {
+    color: gray;
+    text-decoration: underline;
+}
